@@ -22,4 +22,4 @@
 
 ### Page Styling
 
-[BootSwatch Morph Template](https://bootswatch.com/morph/)
+[Bootswatch Morph Template](https://bootswatch.com/morph/)
