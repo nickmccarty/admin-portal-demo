@@ -20,7 +20,7 @@ deleteBtn.addEventListener('click', e => {
   auth.signOut();
   window.alert("Are you sure? Clicking 'OK' will delete user account!")
   console.log('User account deleted!');
-  window.location.href="../../user-deleted.html"; 
+  window.location.href="user-deleted.html"; 
 })
 
 deleteUser(user).then(() => {

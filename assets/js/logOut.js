@@ -20,7 +20,7 @@ logoutBtn.addEventListener('click', e => {
   e.preventDefault();
   auth.signOut()
   console.log('User signed out!');
-  window.location.href="../../sign-off.html"; 
+  window.location.href="sign-off.html"; 
 })
 
 auth.onAuthStateChanged(user => {
