@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
     <title>User Deleted</title>
-</head>
-<body>
-    <h1>Your user account has been deleted!</h1>
-    <a href="./login-page.html"><button>Log In</button></a>
-    <a href="./index.html"><button>Return to Home</button></a>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" media="screen" id="stylesheet">
+    <link rel = "stylesheet" href = "./assets/css/style.css">
+  </head>
+  <body>
+    <div class = "login-container">
+        <div id= "main">
+            <h1>Your user account has been deleted!</h1>
+            <br>
+            <a href="./login-page.html"><button type="button" class="btn btn-primary" style="background-color: #0583D230">Log In</button></a>
+            <p><span></span></p>
+            <a href="./index.html"><button type="button" class="btn btn-primary">Return Home</button></a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type = "module" src = "./assets/js/authentication.js"></script>
+  </body>
 </html>
