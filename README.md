@@ -14,12 +14,12 @@
 
 ### Managing Users and Obtaining User Data
 
-[Firebase Docs](https://firebase.google.com/docs/auth/admin/manage-users)
+* [Firebase Docs](https://firebase.google.com/docs/auth/admin/manage-users)
 
 ### Project Scaffolding
 
-[Code Base for Web Page](https://github.com/gabby-skelton/login-page)
+* [Code Base for Web Page](https://github.com/gabby-skelton/login-page)
 
 ### Page Styling
 
-[Bootswatch Morph Template](https://bootswatch.com/morph/)
+* [Bootswatch Morph Template](https://bootswatch.com/morph/)
