@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" media="screen" id="stylesheet">
+    <link rel = "stylesheet" href = "./assets/css/style.css">
+    <title>User Profile</title>
+</head>
+<body>
+    <div class = "login-container">
+        <div id = 'main'>
+            <h1>
+                Welcome!
+            </h1>
+            <h3>You're logged in as: <span id="uid"></span></h3>
+            <div class="form-group">
+                <label for="formFile" class="form-label mt-4">Upload Profile Photo</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <br>
+            <a href="./dashboard.html">
+                <button type="button" class="btn btn-primary" id = "logout-btn" style="background-color: #0583D230">View Dashboard</button>
+            </a>
+            <p><span></span></p>
+            <button type="button" class="btn btn-primary" id = "delete-btn" style="background-color: #d2052b30">Delete User</button>
+        </div>
+    </div>
+    <script type="module" src="./assets/js/getUser.js"></script>
+    <script type="module" src="./assets/js/logOut.js"></script>
+    <script type="module" src="./assets/js/delete-user.js"></script>
+</body>
+</html>
