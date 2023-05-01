@@ -18,11 +18,7 @@ onAuthStateChanged(auth, (user) => {
     // User is signed in, see docs for a list of available properties
     // https://firebase.google.com/docs/reference/js/firebase.User
     const uid = user.uid;
-    console.log(uid)
-    // const displayName = user.displayName;
     const email = user.email;
-    // const photoURL = user.photoURL;
-    // const emailVerified = user.emailVerified;
     document.getElementById("email").innerHTML = email;
     document.getElementById("uid").innerHTML = uid;
   } else {
