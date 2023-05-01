@@ -82,7 +82,7 @@ submitButton.addEventListener("click", function() {
       const user = userCredential.user;
       console.log("Login successful!");
       window.alert("Log-in successful! Click 'OK' to be redirected to profile page.");
-      window.location.href="../../profile-page.html";
+      window.location.href="./profile-page.html";
     })
     .catch((error) => {
       const errorCode = error.code;
