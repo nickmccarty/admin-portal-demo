@@ -4,13 +4,13 @@
 
 ### Getting Started
 
-[Getting Started with Firebase for the Web](https://terabytetiger.com/lessons/getting-started-with-firebase-authentication)
-[Sign Up, Login & Logout Users with Firebase Authentication](https://dev.to/maasak/sign-up-login-logout-users-with-firebase-authentication-3oa9)
+* [Getting Started with Firebase for the Web](https://terabytetiger.com/lessons/getting-started-with-firebase-authentication)
+* [Sign Up, Login & Logout Users with Firebase Authentication](https://dev.to/maasak/sign-up-login-logout-users-with-firebase-authentication-3oa9)
 
 ### Authenticating User with Email and Password using Firebase
 
-[Firebase "Quick Start" Repo](https://github.com/firebase/quickstart-js/blob/master/auth/email-password.html)
-[Firebase Docs](https://firebase.google.com/docs/auth/web/password-auth)
+* [Firebase "Quick Start" Repo](https://github.com/firebase/quickstart-js/blob/master/auth/email-password.html)
+* [Firebase Docs](https://firebase.google.com/docs/auth/web/password-auth)
 
 ### Managing Users and Obtaining User Data
 
