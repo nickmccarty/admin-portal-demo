@@ -14,11 +14,15 @@
             <h1>
                 Welcome!
             </h1>
-            <h3>You're logged in as: <span id="uid"></span></h3>
+            <h3>You're logged in as: <span id="email"></span></h3>
             <div class="form-group">
                 <label for="formFile" class="form-label mt-4">Upload Profile Photo</label>
                 <input class="form-control" type="file" id="formFile">
             </div>
+            <br>
+            <button type="button" class="btn btn-primary" onclick="ShowAndHideID()">Show User ID</button>
+            <div id = 'secret' style="display: none;"><br><span id="uid"></span></div>
+            <br>
             <br>
             <a href="./dashboard.html">
                 <button type="button" class="btn btn-primary" style="background-color: #0583D230">View Dashboard</button>
@@ -32,6 +36,16 @@
             </div>
         </div>
     </div>
+    <script>
+        function ShowAndHideID() {
+            var x = document.getElementById('secret');
+            if (x.style.display == 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+    </script>
     <script type="module" src="./assets/js/getUser.js"></script>
     <script type="module" src="./assets/js/logOut.js"></script>
     <script type="module" src="./assets/js/deleteUser.js"></script>

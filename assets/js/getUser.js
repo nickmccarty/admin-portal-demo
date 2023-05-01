@@ -23,7 +23,8 @@ onAuthStateChanged(auth, (user) => {
     const email = user.email;
     // const photoURL = user.photoURL;
     // const emailVerified = user.emailVerified;
-    document.getElementById("uid").innerHTML = email;
+    document.getElementById("email").innerHTML = email;
+    document.getElementById("uid").innerHTML = uid;
   } else {
     // User is signed out
     console.log('No UID found.')
